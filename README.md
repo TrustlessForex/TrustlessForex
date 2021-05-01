@@ -10,7 +10,7 @@ with price oracles from ChainLink.
 # Dividend tokens
 Each currency factory is emitting its own token, which allow holders to get a share of the factory revenues by staking them in the Dividend Pool. 
 
-8 dividend tokens EURDIV, CNYDIV, CHFDIV, AUDDIV, CADDIV, JPYDIV, KRWDIV and GBPDVD.
+8 dividend tokens EURDIV, CNYDIV, CHFDIV, AUDDIV, CADDIV, JPYDIV, KRWDIV and GBPDIV.
 
 # Governance token
 A governance token $XEROF is introduced to govern the addition and promotion of new currencies in the protocol and general integration in the DeFi eco-system.
