@@ -5,7 +5,7 @@ International currencies for DeFi
 We introduce a new protocol for creating synthetic international currencies in decentralised finance. The system use what we call a currency factory for each currency. Each factory is independent from each other and cloned from a security-audited smart contract (Liquity).
 
 Currency factory at start: TEUR 🇪🇺, TCNY 🇨🇳, TCHF 🇨🇭, TAUD 🇦🇺, TCAD 🇨🇦, TJPY 🇯🇵, TKRW 🇰🇷 and TGBP 🇬🇧 
-with price oracles from ChainLink.
+with [price oracles](https://data.chain.link/) from ChainLink.
 
 # Dividend tokens
 Each currency factory is emitting its own token, which allow holders to get a share of the factory revenues by staking them in the Dividend Pool. 
