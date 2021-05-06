@@ -14,3 +14,30 @@ Each currency factory is emitting its own token, which allow holders to get a sh
 
 # Governance token
 A governance token TFOREX is introduced to govern the addition and promotion of new currencies in the protocol and general integration in the DeFi eco-system.
+
+# Tools
+
+Desktop
+* Remix IDE: write and deploy contracts
+* Ganache: local step-by-step chain loaded with addresses
+
+# Liquity
+
+## Compiling smart contracts
+Use `Enable optimization: 200`
+
+## Deploying Liquity smart contracts:
+Let's start with `LUSDToken.sol`. You first need to deploy these 3 contracts as describe in its `constructor`:
+
+```
+    constructor
+    (
+        address _troveManagerAddress,
+        address _stabilityPoolAddress,
+        address _borrowerOperationsAddress
+    )
+```
+
+* `TroveManager.sol`
+* `StabilityPool.sol`
+* `BorrowOperations.sol`
