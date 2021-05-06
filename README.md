@@ -21,6 +21,9 @@ Desktop
 * Remix IDE: write and deploy contracts
 * Ganache: local step-by-step chain loaded with addresses
 
+Web
+* https://abi.hashex.org/# to obtain Constructor arguments ABI-encoded
+
 # Liquity
 
 ## Compiling smart contracts
@@ -41,3 +44,11 @@ Let's start with `LUSDToken.sol`. You first need to deploy these 3 contracts as 
 * `TroveManager.sol`
 * `StabilityPool.sol`
 * `BorrowOperations.sol`
+
+# Testnets
+
+## Ropsten
+
+* TroveManager: 0x85402e4954AD0F0Be5D28E2df76c3d14A0E0Bf31
+* StabilityPool: 0x5FD8a915Ec55c7Bac16054261eaE580e15161339
+* BorrowerOperations: 0x985c156AD6027eBf63DD6a500b07c90999479D56
