@@ -7,10 +7,10 @@ We introduce a new protocol for creating synthetic international currencies in d
 Currency factory at start: TEUR 🇪🇺, TCNY 🇨🇳, TCHF 🇨🇭, TAUD 🇦🇺, TCAD 🇨🇦, TJPY 🇯🇵, TKRW 🇰🇷 and TGBP 🇬🇧 
 with [price oracles](https://data.chain.link/) from ChainLink.
 
-# Dividend tokens
+# Revenue sharing tokens
 Each currency factory is emitting its own token, which allow holders to get a share of the factory revenues by staking them in the Dividend Pool. 
 
-8 dividend tokens EURDIV, CNYDIV, CHFDIV, AUDDIV, CADDIV, JPYDIV, KRWDIV and GBPDIV.
+8 revevenue sharing tokens EURFX, CNYFX, CHFFX, AUDFX, CADFX, JPYFX, KRWFX and GBPFX.
 
 # Governance token
 A governance token TFOREX is introduced to govern the addition and promotion of new currencies in the protocol and general integration in the DeFi eco-system.
