@@ -1,4 +1,4 @@
-# tfx.cash
+# tfx.cash - Work in progress 👷
 
 Premier source of Forex stablecoins for DeFi.
 
