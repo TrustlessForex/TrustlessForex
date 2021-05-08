@@ -7,9 +7,9 @@ Our mission is to do to Forex what bitcoin did to gold.
 We provide ways to create Forex stablecoins for Defi. The system use what we call a currency factory for each currency. Each factory is independent from each other and forked from a security-audited smart contract (Liquity).
 
 # Stablecoins
-Fx currencies include: tEUR, tCNY, tCHF, tAUD, tCAD, tJPY, tKRW and tGBP. Each price is secured with [price oracles](https://data.chain.link/) from ChainLink. 
+Fx stablecoins include: tEUR, tCNY, tCHF, tAUD, tCAD, tJPY, tKRW and tGBP. Each price is secured with [price oracles](https://data.chain.link/) from ChainLink. 
 ## Peg and Collaterization: 
-Each stablecoin is secured by at least 110% or more of the same amount in ETH. The only collateral for each stablecoin is ETH, which is most trustless collateral possible in DeFi.
+Each stablecoin is secured by at least 110% or more of the same amount in ETH. The only collateral for each stablecoin is ETH, which is most trustless collateral possible in DeFi. The peg is assured by the Liquity set of smart contract.
 
 # Revenue sharing tokens
 Each currency factory is emitting its own token, which is named 'currency code' + 'fx', i.e., EURfx, CNYfx, CHFfx, AUDfx, CADfx, JPYfx, KRWFfx and GBPfx. The max amount of revenue share token for a currency is always 21 million. 21M EURfx, 21M CNYfx, etc. The token emission is similar to bitcoin: issuance is halved every 4 years.
