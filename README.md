@@ -1,53 +1,30 @@
-# TrustlessForex
+# tfx.cash
 
-International currencies for DeFi
+Premier source of Forex stablecoins for DeFi.
 
-We introduce a new protocol for creating synthetic international currencies in decentralised finance. The system use what we call a currency factory for each currency. Each factory is independent from each other and cloned from a security-audited smart contract (Liquity).
+Our mission is to do to Forex what bitcoin did to gold.
 
-Currency factory at start: TEUR 🇪🇺, TCNY 🇨🇳, TCHF 🇨🇭, TAUD 🇦🇺, TCAD 🇨🇦, TJPY 🇯🇵, TKRW 🇰🇷 and TGBP 🇬🇧 
-with [price oracles](https://data.chain.link/) from ChainLink.
+We provide ways to create Forex stablecoins for Defi. The system use what we call a currency factory for each currency. Each factory is independent from each other and forked from a security-audited smart contract (Liquity).
+
+# Stablecoins
+Fx currencies include: tEUR, tCNY, tCHF, tAUD, tCAD, tJPY, tKRW and tGBP. Each price is secured with [price oracles](https://data.chain.link/) from ChainLink. 
+## Peg and Collaterization: 
+Each stablecoin is secured by at least 110% or more of the same amount in ETH. The only collateral for each stablecoin is ETH, which is most trustless collateral possible in DeFi.
 
 # Revenue sharing tokens
-Each currency factory is emitting its own token, which allow holders to get a share of the factory revenues by staking them in the Dividend Pool. 
+Each currency factory is emitting its own token, which is named 'currency code' + 'fx', i.e., EURfx, CNYfx, CHFfx, AUDfx, CADfx, JPYfx, KRWFfx and GBPfx. The max amount of revenue share token for a currency is always 21 million. 21M EURfx, 21M CNYfx, etc. The token emission is similar to bitcoin: issuance is halved every 4 years.
 
-8 revevenue sharing tokens EURFX, CNYFX, CHFFX, AUDFX, CADFX, JPYFX, KRWFX and GBPFX.
+## Revenue share mechanism
+Holders who stake CURfx tokens in the Dividend pool, receive a share of the management fees of the respective currency factory.
 
-# Governance token
-A governance token TFOREX is introduced to govern the addition and promotion of new currencies in the protocol and general integration in the DeFi eco-system.
+# No governance token
+We first demonstrate the usefulness of our products. Then on top of a successful line of product and with a clear roadmap, only then we can build a governance token. This is a very similar philosophy to the Uniswap story: first prioritize usefulness, decentralization and trustlessness and then later on introduce a governance token.
 
-# Tools
+# Deployments
 
-Desktop
-* Remix IDE: write and deploy contracts
-* Ganache: local step-by-step chain loaded with addresses
+## Testnet
 
-Web
-* https://abi.hashex.org/# to obtain Constructor arguments ABI-encoded
-
-# Liquity
-
-## Compiling smart contracts
-Use `Enable optimization: 200`
-
-## Deploying Liquity smart contracts:
-Let's start with `LUSDToken.sol`. You first need to deploy these 3 contracts as describe in its `constructor`:
-
-```
-    constructor
-    (
-        address _troveManagerAddress,
-        address _stabilityPoolAddress,
-        address _borrowerOperationsAddress
-    )
-```
-
-* `TroveManager.sol`
-* `StabilityPool.sol`
-* `BorrowOperations.sol`
-
-# Testnets
-
-## Ropsten
+### Ropsten
 
 * TroveManager: 0x85402e4954AD0F0Be5D28E2df76c3d14A0E0Bf31
 * StabilityPool: 0x5FD8a915Ec55c7Bac16054261eaE580e15161339
