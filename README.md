@@ -18,7 +18,7 @@ Each currency factory is emitting its own token, which is named 'currency code' 
 Holders who stake CURfx tokens in the dividend pool receive a share of the management fees of the corresponding currency factory.
 
 # No governance token
-We first demonstrate the usefulness of our products. Then on top of a successful line of product and with a clear roadmap, only then we can build a governance token. This is a very similar philosophy to the Uniswap story: first prioritize usefulness, decentralization and trustlessness and then later on introduce a governance token.
+We first demonstrate the usefulness of our products. Then on top of a successful line of product and with a clear roadmap, only then we can build a governance token. This is a very similar philosophy to the Uniswap story: first prioritize usefulness, decentralization and trustlessness and then later on introduce a governance token. Each revenue sharing tokens is only used for the single purpose of capturing a share of the management fees.
 
 # Deployments
 
