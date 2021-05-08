@@ -12,10 +12,10 @@ Fx stablecoins include: tEUR, tCNY, tCHF, tAUD, tCAD, tJPY, tKRW and tGBP. Each 
 Each stablecoin is secured by at least 110% or more of the same amount in ETH. The only collateral for each stablecoin is ETH, which is most trustless collateral possible in DeFi. The peg is assured by the Liquity set of smart contract.
 
 # Revenue sharing tokens
-Each currency factory is emitting its own token, which is named 'currency code' + 'fx', i.e., EURfx, CNYfx, CHFfx, AUDfx, CADfx, JPYfx, KRWFfx and GBPfx. The max amount of revenue share token for a currency is always 21 million. 21M EURfx, 21M CNYfx, etc. The token emission is similar to bitcoin: issuance is halved every 4 years.
+Each currency factory is emitting its own token, which is named 'currency code' + 'fx', i.e., EURfx, CNYfx, CHFfx, AUDfx, CADfx, JPYfx, KRWFfx and GBPfx. The max amount of revenue share token for a currency is 21 million. 21M EURfx, 21M CNYfx, etc. The token emission is similar to bitcoin: issuance is halved every 4 years.
 
 ## Revenue share mechanism
-Holders who stake CURfx tokens in the Dividend pool, receive a share of the management fees of the respective currency factory.
+Holders who stake CURfx tokens in the dividend pool receive a share of the management fees of the corresponding currency factory.
 
 # No governance token
 We first demonstrate the usefulness of our products. Then on top of a successful line of product and with a clear roadmap, only then we can build a governance token. This is a very similar philosophy to the Uniswap story: first prioritize usefulness, decentralization and trustlessness and then later on introduce a governance token.
