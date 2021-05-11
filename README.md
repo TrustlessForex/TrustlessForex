@@ -2,12 +2,12 @@
 
 Premier source of Forex stablecoins for DeFi.
 
-Our mission is to do to Forex what bitcoin did to gold.
+Our mission is to do to Forex what Bitcoin did to Gold.
 
 We provide ways to create Forex stablecoins for Defi. The system use what we call a currency factory for each currency. Each factory is independent from each other and forked from a security-audited smart contract (Liquity).
 
 # Stablecoins
-Fx stablecoins include: tEUR, tCNY, tCHF, tAUD, tCAD, tJPY, tKRW and tGBP. Each price is secured with [price oracles](https://data.chain.link/) from ChainLink. 
+Fx stablecoins include: T-EUR, T-CNY, T-CHF, T-AUD, T-CAD, T-JPY, T-KRW and T-GBP. Each price is secured with [price oracles](https://data.chain.link/) from ChainLink. 
 ## Peg and Collaterization: 
 Each stablecoin is secured by at least 110% or more of the same amount in ETH. The only collateral for each stablecoin is ETH, which is most trustless collateral possible in DeFi. The peg is assured by the Liquity set of smart contract.
 
